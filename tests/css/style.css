@@ -1,0 +1,101 @@
+/*MAIN WRAPPER STYLES*/
+.wrapper {
+	width: 1000px;
+	height: 600px;
+	
+	margin: 0 auto;
+	border: solid 3px #f3f3f3;
+	
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	
+	box-shadow:         7px 7px 5px rgba(50, 50, 50, 0.50);
+	-moz-box-shadow:    7px 7px 5px rgba(50, 50, 50, 0.50);
+	-webkit-box-shadow: 7px 7px 5px rgba(50, 50, 50, 0.50);
+}
+.criteria {
+	width: 150px;
+	height: 600px;
+	float: right;
+	padding: 5px;
+	position: relative;
+	background-color: #f3f3f3;
+	
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+.map {
+	width:850px; 
+	height: 600px;
+	float: left;
+}
+.pline-details  {
+	width: 300px;
+}
+
+/*CRITERIA FORM */
+.criteria-title {
+	font-family: arial;
+	font-size: 14px;
+	font-weight: bold;
+	
+	height: 25px;
+	line-height: 25px;
+	border-bottom: solid 1px #333;
+	
+	margin-bottom: 5px;
+}
+.criteria-block {
+	font-family: arial;
+	font-size: 12px;
+}
+.criteria-block > label {
+	clear: both;
+	display: block;
+	text-align: left;
+	border-bottom: dotted 1px #999;
+	
+}
+.criteria-ctrlBox {
+    bottom: 0;
+    height: 26px;
+	padding: 2px;
+    width: 140px;
+    position: absolute;
+    text-align: center;
+	background-color: #B3B3B3;
+}
+.criteria-ctrlBox > button {
+	width: 100px;
+	height: 25px;
+}
+
+
+//POPUP STYLES
+.pline-details  .title {
+	background-color: #f3f3f3;
+    border-radius: 10px 10px 0 0;
+    height: 25px;
+    line-height: 25px;
+    padding-left: 10px;
+}
+.pline-details  .details {
+	line-height: 20px;
+    padding: 10px;
+}
+.pline-details   table {
+
+}
+.pline-details   table th {
+	width: 100px; 
+	text-align: left;
+	line-height: 20px;
+}
+.pline-details   table td {
+	width: 200px; 
+	text-align: left;
+	line-height: 20px;
+	vertical-align: top;
+}
